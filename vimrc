@@ -218,7 +218,7 @@ command! RunFocusedTest :call RunFocusedTest()
 function! RunFocusedTest()
   let filename = expand("%")
   if filename =~ '_spec\.rb$'
-    call RunTestTool("be rspec ".expand("%").":".line("."))
+    call RunTestTool("bundle exec rspec ".expand("%").":".line("."))
   endif
   if filename =~ '\.feature$'
     call RunTestTool("cuke ".expand("%").":".line("."))
@@ -229,8 +229,20 @@ command! RunTests :call RunTests()
 function! RunTests()
   let filename = expand("%")
   if filename =~ '_spec\.rb$'
-    call RunTestTool("be rspec ".expand("%"))
+    call RunTestTool("bundle exec rspec ".expand("%"))
+  elseif filename =~ '.rb'
+    let splitFilename = split(filename, '\/')
+    let folders = splitFilename[1:-2]
+    let shortenedName = split(splitFilename[-1], '\.rb')[0]
+
+    let testFilename = "spec/"
+    for folder in folders
+      let testFilename = testFilename.folder."/"
+    endfor
+    let testFilename = testFilename.shortenedName."_spec.rb"
+    call RunTestTool("bundle exec rspec ".testFilename)
   endif
+
   if filename =~ '\.feature$'
     call RunTestTool("cuke ".expand("%"))
   endif
@@ -380,6 +392,3 @@ map! <F11> <C-o>:q<CR>
 
 map <Esc>[A <Up>
 
-" (Keep this at the end.)
-" Machine-local vim settings.
-silent source ~/.vimrc.local
