@@ -1,4 +1,7 @@
-"pathogen setup
+" Add untracked machine-local vim path
+let &rtp = "~/.vim.local,".&rtp
+
+" pathogen setup
  filetype on
  filetype off 
  call pathogen#helptags()
@@ -67,20 +70,28 @@ autocmd BufRead,BufNewFile *.json set filetype=javascript
 autocmd BufRead,BufNewFile *.jasmine_fixture set filetype=html
 
 " SETTINGS """"""""""""""""""""""""""""""""
-"set t_Co=256
-colorscheme vividchalk
-colorscheme solarized
+
+" Colors
+if &t_Co == 256
+  let g:solarized_termcolors=256
+endif
 set background=dark
+colorscheme solarized
 
 "Show whitespace, fullstops for trailing whitespace
 set list
-set listchars=trail:·
+if has("gui_running")
+  set listchars=trail:·
+else
+  set listchars=trail:~
+endif
 
-"Keep backup files somewhere else
+"Swapfiles
+set swapfile
+
+"Keep swap and backup files somewhere else
+set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
-
-"No swapfiles
-set noswapfile
 
 "no toolbar
 set guioptions-=T
@@ -196,7 +207,11 @@ set showcmd
 imap <D-CR> <ESC>o
 
 " Change background color when inserting.
-let g:insert_mode_background_color = "#18434E"
+" (Broken in terminal Vim: Solarized has a bug which makes it reload poorly.)
+" http://www.reddit.com/r/vim/comments/ggbcp/solarized_color_scheme/
+if has("gui_running")
+  let g:insert_mode_background_color = "#18434E"
+end
 
 " Run a test tool with the current file and line number
 " The test tool is run in the last Terminal window
