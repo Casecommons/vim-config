@@ -101,3 +101,6 @@ map <Leader><Leader> :!
 map <leader>a :call AckGrep()<CR>
 " AckVisual current selection
 vmap <leader>a :call AckVisual()<CR>
+
+" Recalculate diff when it gets messed up.
+nmap du :diffupdate<CR>
