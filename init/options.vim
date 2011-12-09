@@ -39,10 +39,11 @@ set cursorline                  " Highlight current line
 set statusline=[%n]\ %f\ %m\ %y
 set statusline+=%{fugitive#statusline()} " Show git details"
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''} " Show RVM details"
-set statusline+=%=              "left/right separator
-set statusline+=%c,             "cursor column
-set statusline+=%l/%L           "cursor line/total lines
-set statusline+=\ %P            "percent through file
+set statusline+=%w              " [Preview]
+set statusline+=%=              " Left/right separator
+set statusline+=%c,             " Cursor column
+set statusline+=%l/%L           " Cursor line/total lines
+set statusline+=\ %P            " Percent through file
 
 set laststatus=2                " Always show statusline
 

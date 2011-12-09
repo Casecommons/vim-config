@@ -5,3 +5,6 @@
 " http://vimcasts.org/episodes/fugitive-vim-browsing-the-git-object-database/
 
 autocmd BufReadPost fugitive://* set bufhidden=delete
+
+" Unset 'list' in :Gstatus window (which usually contains tab characters).
+autocmd BufReadPost .git/index set nolist
