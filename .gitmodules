@@ -8,7 +8,7 @@
 	ignore = dirty
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
-	url = git@github.com:Casecommons/vim-rails.git
+	url = git://github.com/Casecommons/vim-rails.git
 	ignore = dirty
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
