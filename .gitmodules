@@ -44,7 +44,7 @@
 	ignore = dirty
 [submodule "bundle/command-t"]
 	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
+	url = git://github.com/wincent/Command-T.git
 	ignore = dirty
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
