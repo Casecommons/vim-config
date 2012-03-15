@@ -4,6 +4,9 @@
 let mapleader = ","
 let maplocalleader = ";"
 
+" have W write as well for shift being held too long
+command W w
+
 " Make Y consistent with D and C
 map Y           y$
 
