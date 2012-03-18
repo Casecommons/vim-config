@@ -78,6 +78,9 @@ map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 map <leader>t :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
 map <leader>T :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs rdoc -f tags<CR>
 
+" Option-click like Rubymine's command-click
+map <M-LeftMouse> :tag <C-r><C-w><CR>
+
 " Git blame
 map <leader>g   :Gblame<CR>
 
