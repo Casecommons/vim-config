@@ -108,3 +108,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/test_server"]
+	path = bundle/test_server
+	url = https://github.com/camelpunch/test_server.git
