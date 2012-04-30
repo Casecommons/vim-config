@@ -111,3 +111,6 @@
 [submodule "bundle/vim-colors-sampler"]
 	path = bundle/vim-colors-sampler
 	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "bundle/handlebars"]
+	path = bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
