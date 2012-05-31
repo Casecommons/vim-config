@@ -120,3 +120,6 @@
 [submodule "bundle/diffthese"]
 	path = bundle/diffthese
 	url = git@github.com:matt-royal/diffthese.git
+[submodule "bundle/handlebars"]
+	path = bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
