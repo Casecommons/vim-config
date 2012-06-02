@@ -21,6 +21,7 @@ set wildignore+=tmp/**             " ...Also tmp files.
 set wildignore+=public/uploads/**  " ...Also uploads.
 set wildignore+=public/images/**   " ...Also images.
 set wildignore+=vendor/**          " ...Also vendor.
+set gdefault                    " substitute all occurrences on a line by default
 
 set list                        " Show whitespace
 if has("gui_running")
