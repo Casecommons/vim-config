@@ -69,6 +69,9 @@ map <M-D-Right> :bn<CR>
 vmap <tab> >gv
 vmap <s-tab> <gv
 
+"switchback
+map <leader>e   :e#<CR>
+
 " FuzzyFinder
 map <D-e>       :FufBuffer<CR>
 map <leader>rb  :FufBuffer<CR>
