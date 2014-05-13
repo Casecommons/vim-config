@@ -1,10 +1,10 @@
 [submodule "bundle/vim-vividchalk"]
 	path = bundle/vim-vividchalk
-	url = git://github.com/tpope/vim-vividchalk.git
+	url = https://github.com/tpope/vim-vividchalk.git
 	ignore = dirty
 [submodule "bundle/molokai"]
 	path = bundle/molokai
-	url = git://github.com/vim-scripts/molokai.git
+	url = https://github.com/vim-scripts/molokai.git
 	ignore = dirty
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
@@ -12,31 +12,31 @@
 	ignore = dirty
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
-	url = git://github.com/tpope/vim-cucumber.git
+	url = https://github.com/tpope/vim-cucumber.git
 	ignore = dirty
 [submodule "bundle/vim-haml"]
 	path = bundle/vim-haml
-	url = git://github.com/tpope/vim-haml.git
+	url = https://github.com/tpope/vim-haml.git
 	ignore = dirty
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
-	url = git://github.com/tpope/vim-endwise.git
+	url = https://github.com/tpope/vim-endwise.git
 	ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 	ignore = dirty
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
-	url = git://github.com/tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 	ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/DanielleSucher/nerdtree.git
+	url = https://github.com/DanielleSucher/nerdtree.git
 	ignore = dirty
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
 	ignore = dirty
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
@@ -44,7 +44,7 @@
 	ignore = dirty
 [submodule "bundle/command-t"]
 	path = bundle/command-t
-	url = git://github.com/wincent/Command-T.git
+	url = https://github.com/wincent/Command-T.git
 	ignore = dirty
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
@@ -56,7 +56,7 @@
 	ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 	ignore = dirty
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
@@ -88,7 +88,7 @@
 	ignore = dirty
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
+	url = https://github.com/vim-ruby/vim-ruby.git
 	ignore = dirty
 [submodule "bundle/gundo"]
 	path = bundle/gundo
@@ -104,7 +104,7 @@
 	url = https://github.com/vim-scripts/candycode.vim.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/vim-colors-sampler"]
 	path = bundle/vim-colors-sampler
 	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
@@ -119,7 +119,7 @@
 	url = https://github.com/matt-royal/diffthese.git
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
-	url = git://github.com/nono/vim-handlebars.git
+	url = https://github.com/nono/vim-handlebars.git
 [submodule "bundle/vim-colors-tomorrow"]
 	path = bundle/vim-colors-tomorrow
 	url = https://github.com/chriskempson/vim-tomorrow-theme.git
@@ -128,31 +128,31 @@
 	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = git://github.com/ervandew/supertab.git
+	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/tmux-config"]
 	path = bundle/tmux-config
-	url = git://github.com/pivotal/tmux-config.git
+	url = https://github.com/pivotal/tmux-config.git
 [submodule "bundle/mustache"]
 	path = bundle/mustache
-	url = git://github.com/juvenn/mustache.vim.git
+	url = https://github.com/juvenn/mustache.vim.git
 [submodule "bundle/vim-cucumber-align-pipes"]
 	path = bundle/vim-cucumber-align-pipes
-	url = git://github.com/quentindecock/vim-cucumber-align-pipes.git
+	url = https://github.com/quentindecock/vim-cucumber-align-pipes.git
 [submodule "bundle/j-split"]
 	path = bundle/j-split
-	url = git://github.com/mgamba/j-split.git
+	url = https://github.com/mgamba/j-split.git
 [submodule "bundle/ZoomWin"]
 	path = bundle/ZoomWin
 	url = https://github.com/vim-scripts/ZoomWin.git
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
-	url = git://github.com/slim-template/vim-slim.git
+	url = https://github.com/slim-template/vim-slim.git
 [submodule "bundle/ag.vim"]
 	path = bundle/ag.vim
 	url = https://github.com/epmatsw/ag.vim.git
 [submodule "bundle/vim-blockle"]
 	path = bundle/vim-blockle
-	url = git://github.com/jgdavey/vim-blockle.git
+	url = https://github.com/jgdavey/vim-blockle.git
 [submodule "bundle/camelcasemotion"]
 	path = bundle/camelcasemotion
 	url = https://github.com/vim-scripts/camelcasemotion.git
