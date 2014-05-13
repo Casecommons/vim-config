@@ -167,7 +167,7 @@
 	url = https://github.com/mgamba/edit-plus.git
 [submodule "bundle/vim-cdo"]
 	path = bundle/vim-cdo
-	url = git@github.com:Peeja/vim-cdo.git
+	url = https://github.com/Peeja/vim-cdo.git
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
 	url = https://github.com/tpope/vim-rake.git
