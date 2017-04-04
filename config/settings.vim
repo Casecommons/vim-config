@@ -8,6 +8,7 @@ set mouse=a                     " Use mouse support in XTerm/iTerm.
 set expandtab                   " Use soft tabs
 set tabstop=2                   " Tab settings
 set autoindent
+set breakindent
 set ruler
 set smarttab                    " Use shiftwidth to tab at line beginning
 set shiftwidth=2                " Width of autoindent
