@@ -11,3 +11,4 @@ let g:syntastic_check_on_wq = 1
 
 let g:syntastic_warning_symbol = '⚠️'
 let g:syntastic_error_symbol = '💩'
+let g:syntastic_quiet_messages = {'file:p':  ['\mapp/assets/javascripts/routes.js'] }
