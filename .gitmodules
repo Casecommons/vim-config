@@ -166,3 +166,6 @@
 [submodule "bundle/RootIgnore"]
 	path = bundle/RootIgnore
 	url = https://github.com/octref/RootIgnore.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git

@@ -153,3 +153,7 @@ cabbrev EP! e!
 
 " A rough opposite of J: inserts new-line. Real opposite of J, though, is: r<CR>
 nmap <C-J> i<CR><ESC>
+
+" Use Ctrl + l/r to go to left and right windows
+nmap <C-l> gt
+nmap <C-h> gT
