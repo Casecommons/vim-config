@@ -19,7 +19,7 @@ set wildignore+=.git,.hg,.svn
 set wildmenu
 
 set list                        " Show whitespace
-set listchars=trail:·
+set listchars=trail:·,tab:>-
 
 set showmatch                   " Show matching brackets
 set hidden                      " Allow hidden, unsaved buffers
