@@ -7,6 +7,6 @@ set -x
 
 cd "$ROOT"
 git submodule update --init --recursive
-(cd "$ROOT/bundle/command-t/ruby/command-t" && ruby extconf.rb && make)
+(cd "$ROOT/bundle/command-t/ruby/command-t/ext/command-t" && ruby extconf.rb && make)
 ln -s "$ROOT/vimrc" ~/.vimrc
 ln -s "$ROOT/gvimrc" ~/.gvimrc
