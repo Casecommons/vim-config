@@ -142,8 +142,8 @@ vmap <leader>a :call AckVisual()<CR>
 " Recalculate diff when it gets messed up.
 nmap du :diffupdate<CR>
 
-" Gundo.vim
-map <leader>u :GundoToggle<CR>
+" Undotree
+map <leader>u :UndotreeToggle<CR>
 
 " See init/story_id.vim
 autocmd FileType gitcommit nnoremap <leader>i :Sid<CR>
