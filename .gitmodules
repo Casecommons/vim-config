@@ -169,3 +169,6 @@
 [submodule "bundle/vimroom"]
 	path = bundle/vimroom
 	url = https://github.com/mikewest/vimroom.git
+[submodule "bundle/vim-tsx"]
+	path = bundle/vim-tsx
+	url = https://github.com/ianks/vim-tsx.git
